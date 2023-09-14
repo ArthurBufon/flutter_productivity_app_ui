@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_productivity_app_ui/login_page.dart';
+import 'package:flutter_productivity_app_ui/screens/home_page.dart';
 
 void main() {
   runApp(const MyApp());
@@ -13,9 +13,9 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
-        primarySwatch: Colors.lightGreen
+        primarySwatch: Colors.indigo
       ),
-      home: const LoginPage(),
+      home: const HomePage(),
     );
   }
 }
